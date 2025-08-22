@@ -1,0 +1,11 @@
+name: VSMPLDiscordStatus
+version: '1.0-SNAPSHOT'
+main: me.vsmcpl.discordstatus.VSMPLDiscordStatus
+api-version: '1.21'
+author: Vectoize Studios
+description: Updates a Discord embed with the server's status.
+load: STARTUP
+
+# This is the important part:
+libraries:
+  - net.dv8tion:JDA:5.0.0

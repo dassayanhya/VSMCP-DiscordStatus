@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------- #
+#                  Discord Server Status Configuration             #
+# ---------------------------------------------------------------- #
+
+# Discord Bot Token from your Discord Developer Portal application.
+# It is ESSENTIAL to keep this token private.
+bot-token: "YOUR_BOT_TOKEN_HERE"
+
+# The ID of the text channel where the status message will be posted and updated.
+# Right-click the channel in Discord and select "Copy Channel ID". (Developer Mode must be enabled in Discord settings)
+status-channel-id: "YOUR_CHANNEL_ID_HERE"
+
+# The ID of the status message itself.
+# The plugin will manage this value automatically. Do NOT change it unless you need to reset it.
+status-message-id: ""
+
+# How often to update the status message, in seconds.
+# Minimum is 15 seconds to avoid hitting Discord API rate limits.
+update-interval: 60
+
+# ---------------------------------------------------------------- #
+#                     Embed Display Information                    #
+# ---------------------------------------------------------------- #
+server-info:
+  # The name of your server to be displayed in the embed.
+  name: "My Awesome Minecraft Server"
+
+  # The platform the server is running on (e.g., Paper, Spigot, Bukkit).
+  platform: "Paper"
+
+  # The IP address or domain for players to connect.
+  ip: "play.myserver.com"
+
+  # A URL for a banner image to display at the bottom of the embed.
+  # For best results, use a direct link to an image (e.g., from Imgur).
+  banner-url: ""
